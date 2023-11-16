@@ -11451,7 +11451,7 @@ fieldset:disabled .btn {
 }
 .site-nav .site-navigation .site-menu .has-children > a:before {
   position: absolute;
-  content: "\e313";
+  content: "";
   font-size: 14px;
   top: 50%;
   right: 0;
