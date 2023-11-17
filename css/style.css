@@ -11400,7 +11400,7 @@ fieldset:disabled .btn {
   top: 0;
   z-index: 9;
   width: 100%;
-  background-color: #bfaf92;
+  background-color: var(--bs-secondary);
 }
 
 .site-nav {
