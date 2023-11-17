@@ -2956,7 +2956,9 @@ textarea.form-control-lg {
 }
 
 .input-group
-  > :not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
+  > :not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(
+    .valid-feedback
+  ):not(.invalid-tooltip):not(.invalid-feedback) {
   margin-left: -1px;
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
@@ -8267,7 +8269,7 @@ fieldset:disabled .btn {
 }
 
 .bg-light {
-  background-color: #bfaf92 !important;
+  background-color: #f8f9fa !important;
 }
 
 .bg-dark {
@@ -11971,9 +11973,9 @@ body {
 
 body {
   font-family: var(--bs-font-body);
-  font-weight: 400;
+  font-weight: 700;
   font-size: 14px;
-  color: #7a7a7a;
+  color: var(--bs-secondary);
   line-height: 1.6;
 }
 
