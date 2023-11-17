@@ -45,7 +45,7 @@
   --bs-dark: #212529;
   --bs-font-header: "Source Serif 4", sans-serif;
   --bs-font-body: "Source Serif 4", sans-serif;
-  --bs-font-sans-serif: "Source Serif 4", serif;
+  --bs-font-sans-serif: "Source Serif 4", sans-serif;
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
     "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(
@@ -270,7 +270,7 @@ pre,
 code,
 kbd,
 samp {
-  font-family: var(--bs-font-monospace);
+  font-family: var(--bs-font-body);
   font-size: 1em;
   direction: ltr /* rtl:ignore */;
   unicode-bidi: bidi-override;
