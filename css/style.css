@@ -31,11 +31,11 @@
 
   --bs-mbarc-1: #bfaf92;
   --bs-mbarc-2: #32120e;
-  --bs-mbarc-3: #2ee6e3;
+  --bs-mbarc-3: #008080;
   --bs-mbarc-4: #ffffff;
 
   --bs-primary: #bfaf92;
-  --bs-secondary: #32120e;
+  --bs-secondary: black
   --bs-success: #198754;
   --bs-info: #0dcaf0;
   --bs-warning: #ffc107;
@@ -2956,9 +2956,7 @@ textarea.form-control-lg {
 }
 
 .input-group
-  > :not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(
-    .valid-feedback
-  ):not(.invalid-tooltip):not(.invalid-feedback) {
+  > :not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
   margin-left: -1px;
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
@@ -5061,7 +5059,7 @@ fieldset:disabled .btn {
 }
 
 .accordion-header {
-  margin-bottom: 0;
+  margin-bottom: 30px;
 }
 
 .accordion-item:first-of-type .accordion-button {
@@ -12133,7 +12131,7 @@ a {
 }
 
 .sec-1 .heading {
-  margin-bottom: 70px;
+  margin-bottom: 30px;
   font-weight: bold;
   position: relative;
   display: inline-block;
@@ -12168,7 +12166,7 @@ a {
   padding: 7rem 0;
 }
 .section .heading {
-  font-size: 40px;
+  font-size: 30px;
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -12179,10 +12177,10 @@ a {
 }
 
 .sec-2 .heading {
-  margin-bottom: 60px;
+  margin-bottom: 30px;
   position: relative;
   text-transform: uppercase;
-  font-size: 14px;
+  font-size: 30px;
   font-weight: bold;
   padding-bottom: 5px;
   display: inline-block;
@@ -12207,7 +12205,7 @@ a {
   margin-bottom: 60px;
   position: relative;
   text-transform: uppercase;
-  font-size: 14px;
+  font-size: 30px;
   font-weight: bold;
   padding-bottom: 5px;
   display: inline-block;
