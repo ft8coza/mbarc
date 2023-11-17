@@ -11396,7 +11396,7 @@ fieldset:disabled .btn {
 }
 
 .site-nav {
-  position: absolute;
+  position: fixed;
   top: 0;
   z-index: 9;
   width: 100%;
