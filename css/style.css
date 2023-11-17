@@ -8267,7 +8267,7 @@ fieldset:disabled .btn {
 }
 
 .bg-light {
-  background-color: #f8f9fa !important;
+  background-color: #bfaf92 !important;
 }
 
 .bg-dark {
@@ -11400,7 +11400,7 @@ fieldset:disabled .btn {
   top: 0;
   z-index: 9;
   width: 100%;
-  background-color: var(--bs-secondary);
+  background-color: var(--bs-primary);
 }
 
 .site-nav {
@@ -11420,7 +11420,8 @@ fieldset:disabled .btn {
   display: inline-block;
 }
 .site-nav .site-navigation .site-menu > li > a {
-  font-size: 14px;
+  font-size: 18px;
+
   padding: 10px 15px;
   display: inline-block;
   text-decoration: none !important;
@@ -12271,7 +12272,7 @@ a {
   position: absolute;
   top: 50%;
   right: 0;
-  font-size: 12px;
+  font-size: 14px;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
@@ -12279,7 +12280,7 @@ a {
   height: 20px;
   background: transparent;
 
-  color: var(--bs-primary);
+  color: var(--bs-secondary);
   line-height: 1.6;
   text-align: center;
   -webkit-transition: 0.3s all ease;
