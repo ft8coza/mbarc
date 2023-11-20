@@ -33,6 +33,7 @@
   --bs-mbarc-2: #32120e;
   --bs-mbarc-3: #008080;
   --bs-mbarc-4: #ffffff;
+  --bs-mbarc-5: #0e0e0e;
 
   --bs-primary: #bfaf92;
   --bs-secondary: black
@@ -11387,7 +11388,7 @@ fieldset:disabled .btn {
 .logo {
   font-size: 20px;
   color: #fff;
-  font-weight: 700;
+  font-weight: 900;
   top: 6px;
   position: relative;
 }
@@ -11400,7 +11401,8 @@ fieldset:disabled .btn {
   top: 0;
   z-index: 9;
   width: 100%;
-  background-color: var(--bs-primary);
+  /*background-color: var(--bs-primary);*/
+  background-color: white;
 }
 
 .site-nav {
@@ -11870,7 +11872,7 @@ fieldset:disabled .btn {
 .burger.light:before,
 .burger.light span,
 .burger.light:after {
-  background: #fff;
+  background: black;
 }
 
 .burger:before,
