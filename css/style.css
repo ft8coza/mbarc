@@ -11607,7 +11607,7 @@ fieldset:disabled .btn {
 .site-nav .site-navigation .site-menu .has-children:hover > a,
 .site-nav .site-navigation .site-menu .has-children:focus > a,
 .site-nav .site-navigation .site-menu .has-children:active > a {
-  color: var(--bs-primary);
+  color: var(--bs-secondary);
 }
 .site-nav .site-navigation .site-menu .has-children:hover,
 .site-nav .site-navigation .site-menu .has-children:focus,
