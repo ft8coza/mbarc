@@ -12023,7 +12023,7 @@ a {
   border: 2px solid transparent;
 }
 .btn.btn-primary:hover {
-  border: 2px solid #000;
+  /*border: 2px solid #000;*/
   background-color: transparent;
   color: #000;
 }
