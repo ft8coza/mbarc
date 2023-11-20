@@ -3201,6 +3201,7 @@ fieldset:disabled .btn {
   color: #000;
   background-color: var(--bs-primary);
   border-color: var(--bs-primary);
+ 
 }
 .btn-primary:hover {
   color: #000;
@@ -12018,13 +12019,15 @@ a {
   border-radius: 0;
 }
 .btn.btn-primary {
-  background-color: #000;
+  background-color: var(--bs-mbarc-3);
   color: #fff;
   border: 2px solid transparent;
+  border-radius: 8px;
 }
 .btn.btn-primary:hover {
   /*border: 2px solid #000;*/
-  background-color: transparent;
+  background-color: var(--bs-mbarc-3);
+  
   color: #000;
 }
 
