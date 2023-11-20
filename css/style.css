@@ -44,7 +44,7 @@
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
   --bs-font-header: "Source Serif 4", sans-serif;
-  --bs-font-body: "Source Serif 4", sans-serif;
+  --bs-font-body: "Montserrat", sans-serif;
   --bs-font-sans-serif: "Source Serif 4", sans-serif;
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
     "Liberation Mono", "Courier New", monospace;
@@ -62,6 +62,11 @@
   box-sizing: border-box;
 }
 
+a.caption { 
+color:var(--bs-secondary) !important;
+font-weight: 400 !important;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   :root {
     scroll-behavior: smooth;
@@ -72,7 +77,7 @@ body {
   margin: 0;
   font-family: var(--bs-font-sans-serif);
   font-size: 1rem;
-  font-weight: 400;
+  font-weight: 100;
   line-height: 1.5;
   color: #212529;
   background-color: #fff;
@@ -4412,6 +4417,7 @@ fieldset:disabled .btn {
 }
 
 .navbar {
+  color:black;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -11388,13 +11394,13 @@ fieldset:disabled .btn {
 
 .logo {
   font-size: 20px;
-  color: #fff;
+  color:var(--bs-secondary);
   font-weight: 900;
   top: 6px;
   position: relative;
 }
 .logo:hover {
-  color: #fff;
+  color: var(--bs-primary);
 }
 
 .site-nav {
@@ -11428,15 +11434,15 @@ fieldset:disabled .btn {
   padding: 10px 15px;
   display: inline-block;
   text-decoration: none !important;
-  color: rgba(255, 255, 255, 0.7);
+  color: var(--bs-secondary);
 }
 .site-nav .site-navigation .site-menu > li > a:hover {
-  color: #fff;
+  color: var(--bs-primary);
 }
 .site-nav .site-navigation .site-menu > li.cta-button a {
   padding: 6px 20px;
   border: 2px solid rgba(255, 255, 255, 0.1);
-  color: #fff;
+  color: var(--bs-secondary);
   border-radius: 30px;
 }
 .site-nav .site-navigation .site-menu > li.cta-button a:hover {
@@ -11445,7 +11451,7 @@ fieldset:disabled .btn {
   border-color: var(--bs-primary);
 }
 .site-nav .site-navigation .site-menu > li.active > a {
-  color: #fff;
+  color: var(--bs-secondary);
 }
 .site-nav .site-navigation .site-menu .has-children {
   position: relative;
@@ -11510,7 +11516,7 @@ fieldset:disabled .btn {
   -webkit-transition: 0s all;
   -o-transition: 0s all;
   transition: 0s all;
-  color: #000;
+  color:var(--bs-secondary);
 }
 .site-nav .site-navigation .site-menu .has-children .dropdown .active a {
   color: #fff !important;
@@ -11601,7 +11607,7 @@ fieldset:disabled .btn {
 .site-nav .site-navigation .site-menu .has-children:hover > a,
 .site-nav .site-navigation .site-menu .has-children:focus > a,
 .site-nav .site-navigation .site-menu .has-children:active > a {
-  color: #fff;
+  color: var(--bs-primary);
 }
 .site-nav .site-navigation .site-menu .has-children:hover,
 .site-nav .site-navigation .site-menu .has-children:focus,
@@ -11974,7 +11980,7 @@ body {
 
 body {
   font-family: var(--bs-font-body);
-  font-weight: 700;
+  font-weight: 500;
   font-size: 14px;
   color: var(--bs-secondary);
   line-height: 1.6;
