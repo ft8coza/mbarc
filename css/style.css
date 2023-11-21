@@ -12072,7 +12072,7 @@ a {
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.1);
   z-index: 1;
 }
 .hero-2 > .container {
@@ -12845,6 +12845,7 @@ a {
 }
 
 .single-portfolio {
+  
   border-radius: 5px;
   overflow: hidden;
   color: #fff;
@@ -12854,6 +12855,12 @@ a {
   position: relative;
   display: block;
 }
+
+.rem12 {
+  height: 12rem;
+  
+}
+
 .single-portfolio > a:before {
   position: absolute;
   content: "";
@@ -12966,7 +12973,7 @@ a {
 }
 
 .site-footer {
-  padding-top: 70px;
+  padding-top: 30px;
   padding-bottom: 30px;
   font-size: 14px;
 }
@@ -12982,7 +12989,7 @@ a {
   color: var(--bs-primary);
 }
 .site-footer .widget {
-  margin-bottom: 30px;
+  margin-bottom: 1px;
 }
 .site-footer .widget h3,
 .site-footer .widget .h3 {
@@ -13028,7 +13035,7 @@ a {
 .site-footer .copyright {
   position: relative;
   padding-top: 40px;
-  margin-top: 40px;
+  margin-top: 10px;
 }
 .site-footer .copyright:before {
   top: 0;
