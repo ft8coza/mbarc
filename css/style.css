@@ -62,9 +62,10 @@
   box-sizing: border-box;
 }
 
-a.caption { 
-color:var(--bs-secondary) !important;
-font-weight: 400 !important;
+a.caption {
+  color: var(--bs-secondary) !important;
+  font-weight: 400 !important;
+  font-size: 20px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -3206,7 +3207,6 @@ fieldset:disabled .btn {
   color: #000;
   background-color: var(--bs-primary);
   border-color: var(--bs-primary);
- 
 }
 .btn-primary:hover {
   color: #000;
@@ -4417,7 +4417,7 @@ fieldset:disabled .btn {
 }
 
 .navbar {
-  color:black;
+  color: black;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -11394,7 +11394,7 @@ fieldset:disabled .btn {
 
 .logo {
   font-size: 20px;
-  color:var(--bs-secondary);
+  color: var(--bs-secondary);
   font-weight: 900;
   top: 6px;
   position: relative;
@@ -11516,10 +11516,10 @@ fieldset:disabled .btn {
   -webkit-transition: 0s all;
   -o-transition: 0s all;
   transition: 0s all;
-  color:var(--bs-secondary);
+  color: var(--bs-secondary);
 }
 .site-nav .site-navigation .site-menu .has-children .dropdown .active a {
-  color:var(--bs-secondary);
+  color: var(--bs-secondary);
 }
 .site-nav .site-navigation .site-menu .has-children .dropdown > li {
   list-style: none;
@@ -12033,7 +12033,7 @@ a {
 .btn.btn-primary:hover {
   /*border: 2px solid #000;*/
   background-color: var(--bs-mbarc-3);
-  
+
   color: #000;
 }
 
@@ -12099,6 +12099,7 @@ a {
 }
 .hero-2 .intro-desc {
   position: absolute;
+
   bottom: 20px;
   left: 20px;
   max-width: 450px;
@@ -12845,7 +12846,6 @@ a {
 }
 
 .single-portfolio {
-  
   border-radius: 5px;
   overflow: hidden;
   color: #fff;
@@ -12858,7 +12858,6 @@ a {
 
 .rem12 {
   height: 12rem;
-  
 }
 
 .single-portfolio > a:before {
