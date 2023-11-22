@@ -14,6 +14,10 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 
+ .navbar-number{
+  padding-left: 0rem;
+ }
+
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -11452,7 +11456,7 @@ fieldset:disabled .btn {
   border-color: var(--bs-primary);
 }
 .site-nav .site-navigation .site-menu > li.active > a {
-  color: var(--bs-secondary);
+  color: var(--bs-primary);
 }
 .site-nav .site-navigation .site-menu .has-children {
   position: relative;
@@ -11520,7 +11524,7 @@ fieldset:disabled .btn {
   color: var(--bs-secondary);
 }
 .site-nav .site-navigation .site-menu .has-children .dropdown .active a {
-  color: var(--bs-secondary);
+  color: var(--bs-primary);
 }
 .site-nav .site-navigation .site-menu .has-children .dropdown > li {
   list-style: none;
@@ -11765,7 +11769,7 @@ fieldset:disabled .btn {
   font-size: 14px;
   z-index: 20;
   font-family: var(--bs-font-header);
-  content: "\e313";
+  
   position: absolute;
   top: 50%;
   left: 50%;
