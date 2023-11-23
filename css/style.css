@@ -12448,6 +12448,7 @@ a {
   }
 }
 .testimonial-slide-center-wrap .tns-nav {
+  display:none;
   position: absolute;
   left: 50%;
   -webkit-transform: translateX(-50%);
@@ -12863,6 +12864,10 @@ a {
 
 .rem12 {
   height: 10rem;
+}
+
+.rem20 {
+  height: 19rem;
 }
 
 .single-portfolio > a:before {
