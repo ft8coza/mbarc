@@ -13070,3 +13070,11 @@ a {
   font-size: 16px; 
   color: #bfaf92;
 }
+
+.footer-font {
+font-size: 13px;
+}
+
+.contact-email {
+  margin-left: 55px;
+}
