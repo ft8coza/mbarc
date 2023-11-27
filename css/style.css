@@ -11456,7 +11456,7 @@ fieldset:disabled .btn {
   border-color: var(--bs-primary);
 }
 .site-nav .site-navigation .site-menu > li.active > a {
-  color: var(--bs-primary);
+  color: var(--bs-mbarc-3);
 }
 .site-nav .site-navigation .site-menu .has-children {
   position: relative;
@@ -13049,7 +13049,7 @@ a {
   transform: translate(-50%, -50%);
 }
 .site-footer .widget .social li a:hover {
-  background-color: var(--bs-primary);
+  background-color: var(--bs-mbarc-3);
   color: #fff;
 }
 .site-footer .widget .links li {
@@ -13098,4 +13098,8 @@ font-size: 13px;
 
 .contact-email {
   margin-left: 55px;
+}
+
+.footer-header {
+  color: var(--bs-mbarc-3);
 }
