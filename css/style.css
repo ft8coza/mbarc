@@ -39,7 +39,7 @@
   --bs-mbarc-4: #ffffff;
   --bs-mbarc-5: #0e0e0e;
 
-  --bs-primary: #bfaf92;
+  --bs-primary: #008080;
   --bs-secondary: #32120e;
   --bs-success: #198754;
   --bs-info: #0dcaf0;
@@ -47,7 +47,7 @@
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-font-header: "Source Serif 4", sans-serif;
+  --bs-font-header: "Montserrat", sans-serif;
   --bs-font-body: "Montserrat", sans-serif;
   --bs-font-sans-serif: "Source Serif 4", sans-serif;
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
@@ -11398,7 +11398,7 @@ fieldset:disabled .btn {
 }
 
 .logo {
-  font-size: 20px;
+  font-size: 25px;
   color: var(--bs-secondary);
   font-weight: 900;
   top: 6px;
@@ -12102,6 +12102,26 @@ a {
     font-size: 30px;
   }
 }
+
+.hero-2 .intro-desc {
+  position: absolute;
+
+  bottom: 20px;
+  left: 20px;
+  max-width: 500px;
+  font-size: 40px;
+}
+@media (max-width: 767.98px) {
+  .hero-2 .intro-desc {
+    left: 20px;
+  }
+}
+.hero-2 .intro-desc p {
+  color: rgba(255, 255, 255, 1);
+ 
+}
+
+
 .hero-2 .intro-desc-left {
   position: absolute;
 
@@ -12123,7 +12143,7 @@ a {
 
 .hero-2 .intro-desc-right {
   padding-left:15rem;
-  padding-top:5rem;
+  padding-top:15rem;
   bottom: 20px;
   left: 20px;
  
