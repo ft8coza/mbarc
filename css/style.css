@@ -13089,7 +13089,7 @@ a {
 .gallery-sub {
   text-align: center; 
   font-size: 16px; 
-  color: #bfaf92;
+  color: var(--bs-mbarc-3);
 }
 
 .footer-font {
