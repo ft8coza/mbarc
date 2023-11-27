@@ -12077,7 +12077,7 @@ a {
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.1);
   z-index: 1;
 }
 .hero-2 > .container {
@@ -12124,10 +12124,9 @@ a {
 
 .hero-2 .intro-desc-left {
   position: absolute;
-
   bottom: 20px;
   left: 20px;
-  max-width: 500px;
+  max-width: 27rem;
   font-size: 40px;
 }
 @media (max-width: 767.98px) {
@@ -12137,16 +12136,16 @@ a {
 }
 .hero-2 .intro-desc-left p {
   color: rgba(255, 255, 255, 1);
-  background-color: rgba(255, 255, 255, 0.2);
+  background: rgba(0, 0, 0, 0.3);
   padding:10px;
 }
 
 .hero-2 .intro-desc-right {
   padding-left:15rem;
-  padding-top:15rem;
+  padding-top:0rem;
   bottom: 20px;
   left: 20px;
- 
+  max-width: 39rem;
   font-size: 45px;
 }
 @media (max-width: 767.98px) {
@@ -12156,7 +12155,7 @@ a {
 }
 .hero-2 .intro-desc-right p {
   color: rgba(255, 255, 255, 1);
-  background-color: rgba(255, 255, 255, 0.2);
+  background: rgba(0, 0, 0, 0.3);
   padding:10px;
 }
 
