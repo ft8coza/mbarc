@@ -11414,7 +11414,7 @@ fieldset:disabled .btn {
 .logo {
   font-size: 25px;
   color: var(--bs-secondary);
-  font-weight: 900;
+  font-weight: normal;
   top: 6px;
   position: relative;
 }
@@ -12204,7 +12204,7 @@ a {
 
 .sec-1 .heading {
   margin-bottom: 30px;
-  font-weight: bold;
+  font-weight: ;
   position: relative;
   display: inline-block;
 }
@@ -12253,7 +12253,7 @@ a {
   position: relative;
   text-transform: uppercase;
   font-size: 30px;
-  font-weight: bold;
+  font-weight: normal;
   padding-bottom: 5px;
   display: inline-block;
 }
@@ -12384,7 +12384,7 @@ a {
 .sec-5 .heading,
 .sec-news .heading {
   margin-bottom: 70px;
-  font-weight: bold;
+  font-weight:normal ;
   position: relative;
   display: inline-block;
 }
