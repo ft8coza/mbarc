@@ -12143,7 +12143,7 @@ a {
   position: absolute;
   bottom: 20px;
   left: 20px;
-  max-width: 27rem;
+  max-width: 40rem;
   font-size: 40px;
 }
 @media (max-width: 767.98px) {
@@ -12162,7 +12162,7 @@ a {
   padding-top: 0rem;
   bottom: 20px;
   left: 20px;
-  max-width: 39rem;
+  max-width: 46rem;
   font-size: 45px;
 }
 @media (max-width: 767.98px) {
@@ -13124,7 +13124,7 @@ a {
 }
 
 .quotes {
-  font-size: 18px;
+  font-size: 25px;
 }
 
 .gallery-names {
