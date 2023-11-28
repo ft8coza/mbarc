@@ -14,9 +14,9 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 
- .navbar-number{
+.navbar-number {
   padding-left: 0rem;
- }
+}
 
 :root {
   --bs-blue: #0d6efd;
@@ -127,7 +127,6 @@ h6,
 h1,
 .h1 {
   font-size: calc(1.375rem + 1.5vw);
-  
 }
 @media (min-width: 1200px) {
   h1,
@@ -283,7 +282,7 @@ kbd,
 samp {
   font-family: var(--bs-font-body);
   font-size: 1em;
-  direction: ltr;/* rtl:ignore */
+  direction: ltr; /* rtl:ignore */
   unicode-bidi: bidi-override;
 }
 
@@ -623,22 +622,22 @@ progress {
 }
 
 .img-fluid-affiliates {
-  max-width:100%;
- height:auto;/* set arbitrary height*/
+  max-width: 100%;
+  height: auto; /* set arbitrary height*/
 }
 
 .img-fluid {
-  max-width:100%;
-  position:relative;
-  overflow:hidden;
-  height:20rem;/* set arbitrary height*/
+  max-width: 100%;
+  position: relative;
+  overflow: hidden;
+  height: 20rem; /* set arbitrary height*/
 }
 
-.image-wrap{
-  width:100%;
-  position:relative;
-  overflow:hidden;
-  height:20rem;/* set arbitrary height*/
+.image-wrap {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  height: 20rem; /* set arbitrary height*/
 }
 
 .img-thumbnail {
@@ -11783,7 +11782,7 @@ fieldset:disabled .btn {
   font-size: 14px;
   z-index: 20;
   font-family: var(--bs-font-header);
-  
+
   position: absolute;
   top: 50%;
   left: 50%;
@@ -12132,9 +12131,7 @@ a {
 }
 .hero-2 .intro-desc p {
   color: rgba(255, 255, 255, 1);
- 
 }
-
 
 .hero-2 .intro-desc-left {
   position: absolute;
@@ -12151,12 +12148,12 @@ a {
 .hero-2 .intro-desc-left p {
   color: rgba(255, 255, 255, 1);
   background: rgba(0, 0, 0, 0.3);
-  padding:10px;
+  padding: 10px;
 }
 
 .hero-2 .intro-desc-right {
-  padding-left:15rem;
-  padding-top:0rem;
+  padding-left: 15rem;
+  padding-top: 0rem;
   bottom: 20px;
   left: 20px;
   max-width: 39rem;
@@ -12170,7 +12167,7 @@ a {
 .hero-2 .intro-desc-right p {
   color: rgba(255, 255, 255, 1);
   background: rgba(0, 0, 0, 0.3);
-  padding:10px;
+  padding: 10px;
 }
 
 .play-vid .play {
@@ -12483,10 +12480,11 @@ a {
 .testimonial-slide-center-wrap
   .tns-item:not(.tns-slide-active)
   + .tns-slide-active
-  + .tns-slide-active :hover {
+  + .tns-slide-active
+  :hover {
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
-  transform: scale(1.1); 
+  transform: scale(1.1);
 }
 .testimonial-slide-center-wrap
   .tns-item:not(.tns-slide-active)
@@ -12511,7 +12509,7 @@ a {
   }
 }
 .testimonial-slide-center-wrap .tns-nav {
-  display:none;
+  display: none;
   position: absolute;
   left: 50%;
   -webkit-transform: translateX(-50%);
@@ -13129,13 +13127,13 @@ a {
 }
 
 .gallery-sub {
-  text-align: center; 
-  font-size: 16px; 
+  text-align: center;
+  font-size: 16px;
   color: var(--bs-mbarc-3);
 }
 
 .footer-font {
-font-size: 13px;
+  font-size: 13px;
 }
 
 .contact-email {
