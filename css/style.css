@@ -3,9 +3,6 @@
 * Template Author: Untree.co
 * Template License: https://creativecommons.org/licenses/by/3.0/
 * Author URI: https://untree.co/
-
-* Twitter: https://twitter.com/Untree_co
-* Facebook: https://web.facebook.com/Untree.co/
 */
 /*!
  * Bootstrap v5.0.0-beta1 (https://getbootstrap.com/)
@@ -4342,7 +4339,6 @@ fieldset:disabled .btn {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
-  
 }
 
 .nav-link {
@@ -4355,7 +4351,6 @@ fieldset:disabled .btn {
     border-color 0.15s ease-in-out;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
     border-color 0.15s ease-in-out;
-    
 }
 @media (prefers-reduced-motion: reduce) {
   .nav-link {
@@ -4378,7 +4373,6 @@ fieldset:disabled .btn {
   border: 1px solid transparent;
   border-top-left-radius: 0.25rem;
   border-top-right-radius: 0.25rem;
-  
 }
 .nav-tabs .nav-link:hover,
 .nav-tabs .nav-link:focus {
@@ -4453,7 +4447,7 @@ fieldset:disabled .btn {
   justify-content: space-between;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-   vertical-align: bottom;
+  vertical-align: bottom;
 }
 .navbar > .container,
 .navbar > .container-fluid,
@@ -4473,7 +4467,6 @@ fieldset:disabled .btn {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  
 }
 
 .navbar-brand {
@@ -4496,7 +4489,6 @@ fieldset:disabled .btn {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
-  
 }
 .navbar-nav .nav-link {
   padding-right: 0;
@@ -4509,7 +4501,6 @@ fieldset:disabled .btn {
 .navbar-text {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-  
 }
 
 .navbar-collapse {
@@ -11449,7 +11440,7 @@ fieldset:disabled .btn {
 }
 .site-nav .site-navigation .site-menu {
   margin-bottom: 0;
-  margin-top:0.25rem;
+  margin-top: 0.25rem;
 }
 .site-nav .site-navigation .site-menu > li {
   display: inline-block;
@@ -12388,7 +12379,7 @@ a {
 .sec-5 .heading,
 .sec-news .heading {
   margin-bottom: 70px;
-  font-weight:normal ;
+  font-weight: normal;
   position: relative;
   display: inline-block;
 }
