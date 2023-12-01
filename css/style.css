@@ -11419,6 +11419,21 @@ fieldset:disabled .btn {
   color: var(--bs-primary);
 }
 
+@media (max-width: 767.98px) 
+{
+  .logo{
+    font-size:20px;
+  }
+}
+
+@media (max-width: 400.98px) 
+{
+  .logo{
+    font-size:15px;
+  }
+}
+
+
 .site-nav {
   position: fixed;
   top: 0;
@@ -12111,7 +12126,7 @@ a {
 @media (max-width: 767.98px) {
   .hero-2 h1,
   .hero-2 .h1 {
-    font-size: 30px;
+    font-size: 32px;
   }
 }
 
@@ -12141,6 +12156,7 @@ a {
 }
 @media (max-width: 767.98px) {
   .hero-2 .intro-desc-left {
+    font-size: 35px;
     left: 20px;
   }
 }
@@ -12156,11 +12172,12 @@ a {
   bottom: 20px;
   left: 20px;
   max-width: 46rem;
-  font-size: 45px;
+  font-size: 40px;
 }
 @media (max-width: 767.98px) {
   .hero-2 .intro-desc-right {
     left: 20px;
+    font-size: 35px;
   }
 }
 .hero-2 .intro-desc-right p {
@@ -13119,6 +13136,21 @@ a {
 .quotes {
   font-size: 25px;
 }
+
+@media (max-width: 767.98px) 
+{
+  .quotes{
+    font-size:20px;
+  }
+}
+
+@media (max-width: 400.98px) 
+{
+  .quotes{
+    font-size:15px;
+  }
+}
+
 
 .gallery-names {
   font-size: 24px;
