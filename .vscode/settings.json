@@ -2,5 +2,6 @@
     "cSpell.ignoreWords": [
         "datetime",
         "mbarc"
-    ]
+    ],
+    "liveServer.settings.port": 5501
 }

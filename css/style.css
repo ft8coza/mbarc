@@ -630,6 +630,15 @@ progress {
   height: 20rem; /* set arbitrary height*/
 }
 
+
+@media (max-width: 767.98px) {
+  .img-fluid {
+    font-size: 30px;
+    margin-bottom: 30px;
+    height:12rem;
+  }
+}
+
 .image-wrap {
   width: 100%;
   position: relative;
@@ -12113,8 +12122,8 @@ a {
 }
 .hero-2,
 .hero-2 > .container > .row {
-  height: 100vh;
-  min-height: 670px;
+  height: 90vh;
+  min-height: 450px;
 }
 .hero-2 h1,
 .hero-2 .h1 {
