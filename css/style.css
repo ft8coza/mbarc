@@ -11,6 +11,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 
+
 .navbar-number {
   padding-left: 0rem;
 }
@@ -12194,6 +12195,45 @@ a {
   background: rgba(0, 0, 0, 0.3);
   padding: 10px;
 }
+
+/*NEW GALLERY*/
+.carousel-item img {
+  /*height: 100vh;*/
+  height: auto;
+  object-fit: contain;
+  padding: 0 20px 0 20px;
+}
+@media (max-width: 768px) {
+  .carousel-item img {
+    height: auto;
+    max-height: 75vh; /* Reduces the image height a bit more on mobile for better fit */
+    padding: 0 0 0 0;
+  }
+}
+
+
+
+.hero-gallery {
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 90vh;
+  min-height: 450px;
+  margin-left: 80px;
+  margin-right: 80px;
+  padding-bottom: 56.25%;
+}
+
+/* Adjust for different aspect ratios if needed */
+.hero-gallery-4-3 {
+  padding-bottom: 75%; /* 4:3 aspect ratio */
+}
+
+.hero-gallery-1-1 {
+  padding-bottom: 100%; /* 1:1 aspect ratio */
+}
+
 
 .play-vid .play {
   display: inline-block;
